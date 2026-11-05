@@ -1,0 +1,24 @@
+# Build outputs
+*.apk
+*.aab
+build/
+app/build/
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Signing (NON committare mai le chiavi!)
+*.jks
+*.keystore
+key.properties
+
+# Screenshot temporanei
+ss-*.png
+screenshot*.png
+
+# Logs
+*.log

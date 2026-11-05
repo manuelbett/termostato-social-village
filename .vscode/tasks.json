@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Debug APK",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"$env:JAVA_HOME='C:\\MTech\\software\\Java\\Amzn_Corretto_jdk21.0.10_7'; $env:ANDROID_SDK_ROOT='C:\\MTech\\software\\android-sdk'; .\\gradlew.bat :app:assembleDebug"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Run Tests",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"$env:JAVA_HOME='C:\\MTech\\software\\Java\\Amzn_Corretto_jdk21.0.10_7'; $env:ANDROID_SDK_ROOT='C:\\MTech\\software\\android-sdk'; .\\gradlew.bat :app:testDebugUnitTest"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}

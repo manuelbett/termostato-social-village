@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Termometro stilizzato -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26c-4.4,0 -8,3.6 -8,8v22.2c-3.2,1.6 -5.5,4.8 -5.5,8.8c0,5.5 4.5,10 10,10s10,-4.5 10,-10c0,-4 -2.3,-7.2 -5.5,-8.8V34c0,-4.4 -3.6,-8 -8,-8zM54,62c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4z"/>
+    <!-- Linee decorative -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M42,38h24M42,44h24M42,50h24"/>
+</vector>
